@@ -56,4 +56,15 @@ console.log("array after unshift ",arr2)
 
 //using the slice method which will not modify the original array
 let arr3=arr2.slice(1,3)
-console.log(arr3)
+console.log('arr3 ',arr3)
+console.log('arr2 ',arr2)
+
+//using the splice method which will modify the original array
+let arr4=arr2.splice(1,3)
+console.log('arr4 ',arr4)
+
+//to replace lement using splice method
+let arr5=[1,2,3,4,5]
+
+arr5.splice(2,1,6)
+console.log(arr5)
