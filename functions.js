@@ -39,3 +39,14 @@ const countvowels1=(str) =>{
 };
 
 console.log('no.of vowels in helloworld are' ,countvowels1("hello world"))
+
+console.log("using global varaible scope")
+var1="hi"
+function func1(){
+    if(typeof var1!="undefined")
+        console.log("local varaible scope")
+    else
+    console.log("global varaiabl scope")
+    }
+
+

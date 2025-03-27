@@ -68,3 +68,9 @@ let arr5=[1,2,3,4,5]
 
 arr5.splice(2,1,6)
 console.log(arr5)
+
+console.log("using the push mehtod to push one array into other")
+let arr1=[9,8,7]
+console.log("intital array is "+arr1)
+arr1.push(["hello","bye"])
+console.log("after pushing "+arr1)
